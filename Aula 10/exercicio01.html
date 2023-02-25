@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../_css/estilo.css">
+    <meta charset="UTF-8"/>
+    <title>Curso de PHP - CursoemVideo.com</title>
+    <style>
+    	.botao {
+			background-color: #273747;
+			color: white;
+			padding: 8px;
+			box-shadow: 2px 2px 1px #aaaaaa;
+		}
+    </style>
+</head>
+<body>
+<div>
+	<form method="get" action="exercicio01.php">
+		Número: <input type="number" name="num"><br/>
+		<fieldset><legend>Operação</legend>
+		<input type="radio" name="oper" id="dobro" value="1" checked/>
+		<label for="dobro">Dobro</label>
+		<input type="radio" name="oper" id="cubo" value="2" />
+		<label for="cubo">Cubo</label>
+		<input type="radio" name="oper" id="raiz" value="3" />
+		<label for="raiz">Raiz Quadrada</label>
+		</fieldset>
+		<input class="botao" type="submit" value="Calcular"/>
+	</form>
+</div>
+</body>
+</html>
+ 
